@@ -1,0 +1,102 @@
+V "GNAT Lib v2013"
+M P W=b
+A -gnatA
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U rational_reckoner%b	rational_reckoner.adb	d4c5db13 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W rat_stack%s		rat_stack.adb		rat_stack.ali
+W rat_stack.print%s	rat_stack-print.adb	rat_stack-print.ali
+W rational_numbers%s	rational_numbers.adb	rational_numbers.ali
+W rational_numbers.io%s	rational_numbers-io.adb	rational_numbers-io.ali
+
+U rational_reckoner%s	rational_reckoner.ads	f5ae0d5e EE NE OO SU
+W rat_stack%s		rat_stack.adb		rat_stack.ali
+W rational_numbers%s	rational_numbers.adb	rational_numbers.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-unccon.ads		20130417131022 f9eb8f06
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D rat_stack.ads		20131005204040 1944f0ea
+D rat_stack-print.ads	20131005204112 527610d7
+D rational_numbers.ads	20131005230624 4bc2f619
+D rational_numbers-io.ads  20131005203950 2d62d59d
+D rational_reckoner.ads	20131002162148 a7280bad
+D rational_reckoner.adb	20131005203808 6a2a80c2
+D rational_reckoner-process.adb  20131005230624 d4de49a0 rational_reckoner.process
+D rational_reckoner-process-get_rational.adb  20131005220522 f574ec08 rational_reckoner.process.get_rational
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 2r6 17|1r6 2r6
+X 7 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 2r10 17|1w10 2r10
+166U14*New_Line 16|10s4 21s13 26s4 18|13s24
+169U14*Skip_Line 16|27s4 18|13s13
+206U14*Get 16|17s10
+208U14*Put 18|15s13
+242U14*Put 16|9s4
+263U14*Put_Line 16|11s4 12s4 22s13 26s13 17|22s7 26s7 35s7 18|14s13
+298X4*Data_Error 18|11r15
+X 11 rat_stack.ads
+2K9*Rat_Stack 6e14 15|1w24 16|13r4 17|4r6 4r27
+3U14*Push 17|16s7 19s7 27s7 29s7 31s7 33s7
+4V13*Pop{13|2R9} 17|18s16 21s31 24s15 29s12 29s18 31s12 31s18 33s12 33s18
+5U14*Clear 16|13s14
+X 12 rat_stack-print.ads
+1K19*Print 3e20 17|4w16
+X 13 rational_numbers.ads
+1K9*Rational_Numbers 16e21 15|1w6 17|3r6 5w6 5r28 21r7 25r7 18|1r6 8r10
+2R9*Rational 15e17 17|10r13 11r34 18|3r31
+3V14*"-"{2R9} 17|18s15
+4V14*"+"{2R9} 17|33s16
+5V14*"*"{2R9} 17|29s16
+6V14*"/"{2R9} 17|31s16
+X 14 rational_numbers-io.ads
+1K26*IO 4e24 17|3w23 21r24 25r24 18|1w23 8r27
+2U14*Get 18|8s30
+3U14*Put 17|21s27 25s27
+X 15 rational_reckoner.ads
+2U11*Rational_Reckoner 16|3b11 28l5 28t22
+X 16 rational_reckoner.adb
+5e4 C{character} 17m14 18r18
+6U14 Process 6>22 18s10 17|8b11 38l5 38t12
+6e22 C{character} 17|8b19 13r7 17r10 20r10 23r10 28r10 30r10 32r10
+15q7 B 24l11 24e12
+X 17 rational_reckoner-process.adb
+10r4 R{13|2R9} 14m20 16r12
+10r7 temp{13|2R9} 18m7 19r12 24m7 25r31 27r12
+11U14 Get_Rational 11<27 14s7 18|3b11 18l5 18t17
+11r27 R{13|2R9} 18|3b24 8m34
+

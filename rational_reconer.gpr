@@ -1,0 +1,6 @@
+project Rational_Reconer is
+
+   for Main use ("rational_reckoner.adb");
+
+end Rational_Reconer;
+

@@ -1,0 +1,46 @@
+V "GNAT Lib v2013"
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U rational_numbers%b	rational_numbers.adb	75b40781 NE OO PK
+W rational_numbers%s	rational_numbers.adb	rational_numbers.ali
+W rational_numbers.slave%s  rational_numbers-slave.adb  rational_numbers-slave.ali
+
+U rational_numbers%s	rational_numbers.ads	4bc2f619 EE NE OO PK
+
+D rational_numbers.ads	20131005230624 4bc2f619
+D rational_numbers.adb	20131005230624 6949587a
+D rational_numbers-slave.ads  20131005203922 573fa9e2
+D system.ads		20130417131036 5fc8ae56
+X 1 rational_numbers.ads
+1K9*Rational_Numbers 16l5 16e21 2|1r6 2b14 35l5 35t21
+2R9*Rational 3r21 3r38 4r21 4r34 4r51 5r21 5r34 5r51 6r21 6r34 6r51 9r28
+. 11c9 15e17 2|5r18 5r35 9r18 9r31 9r48 14r18 14r31 14r48 18r18 18r31 18r48
+. 31r25
+3V14*"-"{2R9} 3>18 2|5b11 8l9 8t11
+3r18 X{2R9} 2|5b15 7r16 7r23
+4V14*"+"{2R9} 4>18 4>31 2|18b11 24t7
+4r18 X{2R9} 2|18b15 21r12 22r18 22r26
+4r31 Y{2R9} 2|18b28 21r20 22r12 22r32
+5V14*"*"{2R9} 5>18 5>31 2|9b11 12t7
+5r18 X{2R9} 2|9b15 11r28 11r43
+5r31 Y{2R9} 2|9b28 11r36 11r51
+6V14*"/"{2R9} 6>18 6>31 2|14b11 17t7
+6r18 X{2R9} 2|14b15 16r28 16r43
+6r31 Y{2R9} 2|14b28 16r36 16r51
+9V13*Denominator{positive} 9>25 2|31b10 34l8 34t19
+9r25 R{2R9} 2|31b22 33r14
+13i10*Num{integer} 2|7r18 11r30 11r38 16r30 16r53 22r20 22r34
+14i10*Den{positive} 2|7r25 11r45 11r53 16r38 16r45 21r14 21r22 22r14 22r28
+. 33r16
+X 2 rational_numbers.adb
+19i4 N{integer} 22m7 23r28
+19i7 D{integer} 21m7 23r30
+X 3 rational_numbers-slave.ads
+1K26*Slave 2|1w23 4r8 11r14 16r14 23r14 3|4e27
+2V13*Normal{1|2R9} 2|11s20 16s20 23s20
+
