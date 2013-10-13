@@ -1,7 +1,7 @@
 project Rational_Reconer is
 
    for Main use ("rational_reckoner.adb");
-   for Object_Dir use ".\build";
+   for Object_Dir use ".\object";
    for Exec_Dir use ".\exec";
 
 end Rational_Reconer;
