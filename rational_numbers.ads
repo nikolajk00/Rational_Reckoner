@@ -5,7 +5,6 @@ package Rational_Numbers is -- 1-st compilation unit
    function "*" (X: Rational; Y: Rational) return Rational;
    function "/" (X: Rational; Y: Rational) return Rational;
 
-
    function Denominator(R: Rational) return Positive;
 private
    type Rational is

@@ -13,15 +13,15 @@ W rational_numbers%s	rational_numbers.adb	rational_numbers.ali
 U rational_numbers.slave%s  rational_numbers-slave.ads  1cfd5ffb EE NE OO PK
 W rational_numbers%s	rational_numbers.adb	rational_numbers.ali
 
-D rational_numbers.ads	20131005230624 4bc2f619
+D rational_numbers.ads	20131013200158 4bc2f619
 D rational_numbers-slave.ads  20131005203922 573fa9e2
 D rational_numbers-slave.adb  20131005203942 5bb71d5c
 D system.ads		20130417131036 5fc8ae56
 X 1 rational_numbers.ads
-1K9*Rational_Numbers 16e21 2|1r9 4r5 3|1r14 16r5
-2R9*Rational 15e17 2|2r23 3r27 3|11r23 11r40
-13i10*Num{integer} 3|12r32 14r17
-14i10*Den{positive} 3|12r39 14r26
+1K9*Rational_Numbers 15e21 2|1r9 4r5 3|1r14 16r5
+2R9*Rational 14e17 2|2r23 3r27 3|11r23 11r40
+12i10*Num{integer} 3|12r32 14r17
+13i10*Den{positive} 3|12r39 14r26
 X 2 rational_numbers-slave.ads
 1K26*Slave 1|1k9 2|4l22 4e27 3|1b31 16l22 16t27
 2V13*Normal{1|2R9} 2>20 3|11b13 15l8 15t14

@@ -33,7 +33,7 @@ D a-tiinio.ads		20130417131022 aa04e5d6
 D a-unccon.ads		20130417131022 f9eb8f06
 D interfac.ads		20130417131026 cb4a8015
 D i-cstrea.ads		20130417131026 8128536b
-D rational_numbers.ads	20131005230624 4bc2f619
+D rational_numbers.ads	20131013200158 4bc2f619
 D rational_numbers-io.ads  20131005203950 2d62d59d
 D rational_numbers-io.adb  20131005221542 dea95027
 D rational_numbers-slave.ads  20131005203922 573fa9e2
@@ -68,10 +68,10 @@ X 9 a-tiinio.ads
 55U14*Get 15|9s23[4|18] 17s23[4|18]
 65U14*Put 15|23s23[4|18] 25s23[4|18]
 X 13 rational_numbers.ads
-1K9*Rational_Numbers 16e21 14|1r9 4r5 15|2r6 3r14 27r5
-2R9*Rational 15e17 14|2r25 3r24 15|5r25 21r24
-13i10*Num{integer} 15|23r29
-14i10*Den{positive} 15|25r29
+1K9*Rational_Numbers 15e21 14|1r9 4r5 15|2r6 3r14 27r5
+2R9*Rational 14e17 14|2r25 3r24 15|5r25 21r24
+12i10*Num{integer} 15|23r29
+13i10*Den{positive} 15|25r29
 X 14 rational_numbers-io.ads
 1K26*IO 13|1k9 14|4l22 4e24 15|3b31 27l22 27t24
 2U14*Get 2<18 15|5b14 20l8 20t11

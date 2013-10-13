@@ -16,7 +16,7 @@ W rational_numbers%s	rational_numbers.adb	rational_numbers.ali
 D rat_stack.ads		20131005204040 1944f0ea
 D rat_stack.adb		20131005212242 48e1e260
 D rat_stack-data.ads	20131005204128 a4832c23
-D rational_numbers.ads	20131005230624 4bc2f619
+D rational_numbers.ads	20131013200158 4bc2f619
 D system.ads		20130417131036 5fc8ae56
 X 1 rat_stack.ads
 2K9*Rat_Stack 6l5 6e14 2|1r6 2b14 25l5 25t14
@@ -30,6 +30,6 @@ X 3 rat_stack-data.ads
 3i4*Top{integer} 2|7m7 11r10 14m7 14r14 15r13 19r10 22m7 22r14 23r20
 4a4*Stack(4|2R9) 2|15m7 23r14
 X 4 rational_numbers.ads
-1K9*Rational_Numbers 1|1w6 1r28 4|16e21
-2R9*Rational 1|3r25 4r24 2|9r25 17r24 4|15e17
+1K9*Rational_Numbers 1|1w6 1r28 4|15e21
+2R9*Rational 1|3r25 4r24 2|9r25 17r24 4|14e17
 

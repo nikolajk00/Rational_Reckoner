@@ -15,7 +15,7 @@ W rat_stack%s		rat_stack.adb		rat_stack.ali
 D rat_stack.ads		20131005204040 1944f0ea
 D rat_stack-print.ads	20131005204112 527610d7
 D rat_stack-print.adb	20131005204120 f27f9dbc
-D rational_numbers.ads	20131005230624 4bc2f619
+D rational_numbers.ads	20131013200158 4bc2f619
 D system.ads		20130417131036 5fc8ae56
 X 1 rat_stack.ads
 2K9*Rat_Stack 6e14 2|1r9 3r5 3|1r14 6r5

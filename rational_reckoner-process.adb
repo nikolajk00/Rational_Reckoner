@@ -1,7 +1,9 @@
 with Ada.Text_IO;
 use  Ada.Text_IO;
 with Rational_Numbers.IO;
-with Rat_Stack.Print; use Rat_Stack;
+--with Rat_Stack.Print; use Rat_Stack;
+with Stack_Rational; use Stack_Rational;
+
 with Rational_Numbers; use Rational_Numbers;
 separate(Rational_Reckoner)-- It points that the next
                            -- unit is a subunit
